@@ -27,7 +27,7 @@ Add to a Site Go to the SharePoint site where you want to add the web parts. Nav
 
 Troubleshooting Web Part Not Appearing: Ensure the solution is deployed and added to the site. Power App Not Displaying: Verify the Power App ID and user permissions
 
-Deploy WebPart Link- https://sczgh.sharepoint.com/:u:/r/sites/Camgemini/SitePages/WebPart.aspx?csf=1&web=1&share=ET4d58oroqhIgg3F7VPBKUgBWJEbh7eylLS65FJXOdCvtQ&e=a8cBRE SharePoint Site URL- https://sczgh.sharepoint.com/sites/Camgemini/Lists/Training%20Data/AllItems.aspx
+Deploy WebPart Link- https://sczgh.sharepoint.com/:u:/r/sites/Camgemini/SitePages/WebPart.aspx?csf=1&web=1&share=ET4d58oroqhIgg3F7VPBKUgBWJEbh7eylLS65FJXOdCvtQ&e=a8cBRE SharePoint Site URL- https://twtfy.sharepoint.com/sites/TrainingData/Lists/Training%20Data/AllItems.aspx
 
 Local Workbench Url- https://twtfy.sharepoint.com/sites/TrainingData/_layouts/15/workbench.aspx
 
