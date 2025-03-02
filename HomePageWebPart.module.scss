@@ -1,1 +1,633 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo img {
+      width: 120px;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+
+      li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        padding: 10px;
+      }
+
+      li a:hover {
+        color: #0078d4;
+      }
+    }
+
+    .header-buttons {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      border-radius: 50px;
+
+      button {
+        padding: 10px 20px;
+        background-color: #0078d4;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005a9e;
+      }
+
+      .user-profile img,
+      .cart img,
+      .Bell img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+.hero {
+  background-color: #f0f4f8;
+  padding: 60px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .hero-content {
+      max-width: 50%;
+      height: 200px;
+      width: 253px;
+      border-radius: initial;
+
+      h1 {
+        font-size: 25px;
+        color: #003366;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #0078d4;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .hero-image img {
+      width: 730px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.about {
+  background-color: #fff;
+  padding: 60px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    .about-content {
+      flex: 1;
+
+      h2 {
+        font-size: 32px;
+        color: #003366;
+      }
+
+      p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+
+        li {
+          font-size: 18px;
+          font-weight: bold;
+          padding: 10px 0;
+
+          &:before {
+            content: "✔";
+            margin-right: 10px;
+          }
+        }
+      }
+
+      button {
+        background-color: #0078d4;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005a9e;
+      }
+    }
+
+    .about-image img {
+      width: 400px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.blog {
+  font-family: Arial, sans-serif;
+  background-color: #f8fbff; /* Light blue background */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog-item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.blog-item > div {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px; /* Set a consistent width */
+  text-align: left;
+}
+
+.blog-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px;
+  color: #333;
+}
+
+.blog-item p {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0 15px 15px;
+}
+
+// .courses {
+//   background-color: #fff;
+//   padding: 60px 0;
+
+//   h2 {
+//     font-size: 30px;
+//     color: #003366;
+//     text-align: center;
+//     margin-bottom: 30px;
+//   }
+
+//   p {
+//     text-align: center;
+//     color: #666;
+//     margin-bottom: 30px;
+//   }
+
+//   .container {
+//     display: flex;
+//     gap: 30px;
+
+//     .courses-text {
+//       flex: 1;
+
+//       ul {
+//         list-style: none;
+//         padding: 0;
+//         margin-bottom: 20px;
+
+//         li {
+//           font-size: 18px;
+//           font-weight: bold;
+//           padding: 10px 0;
+
+//           &:before {
+//             content: '✔';
+//             margin-right: 10px;
+//           }
+//         }
+//       }
+
+//       button {
+//         background-color: #0078d4;
+//         color: white;
+//         padding: 10px 20px;
+//         border: none;
+//         border-radius: 5px;
+//         cursor: pointer;
+//       }
+
+//       button:hover {
+//         background-color: #005a9e;
+//       }
+//     }
+
+//     .courses-image img {
+//       width: 450px;
+//       border-radius: 10px;
+//     }
+//   }
+// }
+.courses {
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  color: #2a2a72; /* Dark blue */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #555; /* Gray */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.courses-text {
+  flex: 1;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.courses-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.courses-text ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.courses-text ul li::before {
+  content: "✔️";
+  color: #007bff; /* Blue checkmark */
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.courses-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.courses-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 4px solid #007bff; /* Blue border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.Search {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Optional: Add hover effect if needed */
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.courses-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+
+  .courses-text {
+    flex: 1;
+
+    h2 {
+      font-size: 2.5rem;
+      color: #0a2747;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #5b5b5b;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+
+      li {
+        font-size: 1.1rem;
+        color: #333;
+        padding: 5px 0;
+      }
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #0052cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #003d99;
+      }
+    }
+  }
+
+  .courses-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-left: 465%;
+    }
+  }
+}
+
+nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+  padding: 0; /* Optional: adjust padding */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Arrange items in a row */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+  margin-left: 15px; /* Add space between items */
+  position: relative;
+}
+
+nav ul li:not(:first-child) {
+  border-left: 1px solid #ccc; /* Add a vertical line (separator) */
+  padding-left: 15px; /* Space between the line and the text */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Set text color */
+  font-size: 16px; /* Adjust font size */
+}
+
+nav ul li a:hover {
+  color: #0078d7; /* Change color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
+
+.hero {
+  position: relative; /* Position relative to allow positioning of inner elements */
+  width: 100%; /* Full width of the container */
+  height: 190px; /* Adjust height as needed */
+  overflow: hidden; /* Ensure content does not overflow the container */
+}
+
+.hero-image img {
+  width: 100%; /* Image takes full width */
+  height: 100%; /* Image takes full height */
+  object-fit: cover; /* Ensures image scales properly without distortion */
+}
+
+.hero-content {
+  position: absolute; /* Position the content above the image */
+  top: 75px; /* Add margin from the top */
+  left: 20px; /* Add margin from the left */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Light white background with transparency */
+  padding: 20px; /* Padding inside the content box */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.hero-content h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Darker text color for readability */
+}
+
+.hero-content p {
+  margin: 10px 0 0; /* Add spacing between heading and paragraph */
+  font-size: 16px; /* Adjust font size */
+  color: #666; /* Lighter text color */
+}
+
+.about {
+  display: flex; /* Use flexbox for side-by-side layout */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Add spacing between image and content */
+  padding: 20px; /* Add padding to the section */
+}
+
+.about-image {
+  flex: 1; /* Allow the image to take 1 part of available space */
+}
+
+.about-image img {
+  width: 100%; /* Image takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+.about-content {
+  flex: 1; /* Allow the content to take 1 part of available space */
+}
+
+.about-content h2 {
+  font-size: 24px; /* Adjust heading size */
+  color: #333; /* Text color */
+  margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.about-content p {
+  font-size: 16px; /* Adjust paragraph size */
+  color: #666; /* Text color */
+  margin-bottom: 10px; /* Spacing below the paragraph */
+}
+
+.about-content ul {
+  list-style-type: disc; /* Display bullet points */
+  margin: 10px 0;
+  padding-left: 20px; /* Add left padding for bullets */
+}
+
+.about-content li {
+  margin-bottom: 5px; /* Add spacing between list items */
+  font-size: 14px;
+  color: #555; /* Lighter text color */
+}
+
+.about-content button {
+  background-color: #0078d7; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.about-content button:hover {
+  background-color: #005a9e; /* Darker shade on hover */
+}
+
+//Blog
+
+// /* General Styling */
+// .blog {
+//   padding: 20px;
+//   background-color: #f9f9f9; /* Optional background color */
+// }
+
+// .blog .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   text-align: center;
+// }
+
+// /* Center the heading */
+// .blog h2 {
+//   text-align: center;
+//   font-size: 2rem;
+//   color: #333;
+//   margin-bottom: 30px;
+// }
+
+// /* Blog container - Flexbox for horizontal alignment */
+// .blog-container {
+//   display: flex;
+//   justify-content: space-between; /* Even spacing */
+//   gap: 20px; /* Space between items */
+//   flex-wrap: wrap; /* Wrap items if needed on smaller screens */
+// }
+
+// /* Blog item styling */
+// .blog-item {
+//   flex: 1 1 calc(33.333% - 20px); /* 3 items per row, with spacing */
+//   max-width: 300px; /* Optional: constrain item width */
+//   text-align: center;
+//   background: #fff; /* Optional: add a background */
+//   padding: 15px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+//   border-radius: 8px; /* Optional: rounded corners */
+// }
+
+// /* Image styling */
+// .blog-item img {
+//   max-width: 100%;
+//   height: auto;
+//   margin-bottom: 15px;
+//   border-radius: 8px; /* Optional: rounded image corners */
+// }
+
+// /* Blog title */
+// .blog-item h3 {
+//   margin: 10px 0;
+//   font-size: 1.2rem;
+//   color: #333;
+// }
+
+// /* Blog description */
+// .blog-item p {
+//   font-size: 0.9rem;
+//   color: #666;
+//   margin: 0;
+// }
 
