@@ -25,7 +25,8 @@ Upload the .sppkg file to the Apps for SharePoint library. Click Deploy when pro
 
 Add to a Site Go to the SharePoint site where you want to add the web parts. Navigate to Site Contents > Add an App. Add your SPFx solution.
 
-Troubleshooting Web Part Not Appearing: Ensure the solution is deployed and added to the site. Power App Not Displaying: Verify the Power App ID and user permissions
+Troubleshooting Web Part Not Appearing: Ensure the solution is deployed and added to the site. 
+Power App Not Displaying: Verify the Power App ID and user permissions
 
 Deploy WebPart Link- https://twtfy.sharepoint.com/:u:/r/sites/TrainingData/SitePages/Home.aspx?csf=1&web=1&share=EdsRe26xMWJOnn2raHIL27EBOV4ViiHi1DB8_my0Zr7_Tw&e=fOnHKg SharePoint Site URL- https://twtfy.sharepoint.com/sites/TrainingData/Lists/Training%20Data/AllItems.aspx
 
@@ -50,3 +51,5 @@ In this conatinmer I take a text lable of msg (“Are You sure to delete this re
 Set On yes button of OnSelect property: Remove('Training Data', LookUp('Training Data',ID=SelectedID)); Set(ShowConfirm, false); Notify("Item deleted successfully!", NotificationType.Success);
 
 Set on No button of OnSelect property: Set(ShowConfirm,false)
+
+Also I Update Start Date & End Date Valiadation Logic:- Start Date Not Greater Than End Date.
